@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "telegram-bot",
+  "version": "0.0.0",
+  "description": "Telegram bot for study group",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node dist/index.js",
+    "dev": "nodemon .",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "ts-coverage": "typescript-coverage-report",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit",
+    "commit": "commit"
+  },
+  "main": "dist/index.js",
+  "type": "module",
+  "contributors": [
+    "Ivan Andreevich <ivantolkachevit549@gmail.com>",
+    "Artem Erotskiy <gigackg231@gmail.com>"
+  ],
+  "keywords": [
+    "Telegram",
+    "bot",
+    "client",
+    "node",
+    "telegram-bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doxbin404/Shirker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doxbin404/Shirker/issues"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">= 22.11.0"
+  },
+  "prisma": {
+    "schema": "./src/prisma/schema.prisma"
+  },
+  "typeCoverage": {
+    "atLeast": 90
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/cz-commitlint": "^19.5.0",
+    "@commitlint/format": "^19.5.0",
+    "@commitlint/prompt-cli": "^19.5.0",
+    "@commitlint/types": "^19.5.0",
+    "@eslint/js": "^9.14.0",
+    "@telegraf/types": "^7.1.0",
+    "@types/node": "^22.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "@typescript-eslint/parser": "^8.13.0",
+    "commitizen": "^4.3.1",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0",
+    "husky": "^9.1.6",
+    "inquirer": "^9.3.7",
+    "nodemon": "^3.1.7",
+    "prisma": "^5.22.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0"
+  }
+}
