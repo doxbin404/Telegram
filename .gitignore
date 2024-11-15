@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+coverage-ts
+
+# production
+dist
+
+# local env files
+.env
+
+# visual studio code
+.vscode
