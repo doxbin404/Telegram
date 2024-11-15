@@ -18,7 +18,9 @@
   "type": "module",
   "contributors": [
     "Ivan Andreevich <ivantolkachevit549@gmail.com>",
-    "Artem Erotskiy <gigackg231@gmail.com>"
+    "Artem Erotskiy <gigackg231@gmail.com>",
+    "Marina Simonova <marina.simonova.1106@gmail.com>",
+    "Ilya Abramov <ilyabramov22222@gmail.com>"
   ],
   "keywords": [
     "Telegram",
@@ -47,6 +49,9 @@
   "config": {
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
+    },
+    "commitlint": {
+      "path": "./.commitlintrc.json"
     }
   },
   "dependencies": {

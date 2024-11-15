@@ -13,7 +13,7 @@
 			"skip": ":skip",
 			"max": "upper %d chars",
 			"min": "%d chars at least",
-			"emptyWarning": "can not be empty",
+			"emptyWarning": "не может быть пустым",
 			"upperLimitWarning": "over limit",
 			"lowerLimitWarning": "below limit"
 		},
